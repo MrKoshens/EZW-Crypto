@@ -27,23 +27,23 @@ Requirements
 
  Installation
 
- 	1.	Clone this repository:
+ 1.	Clone this repository:
 ```
  git clone https://github.com/yourusername/Secure-Image-Compression.git
  cd Secure-Image-Compression
 ```
 
-	2.	Open MATLAB and add the repository folder to your MATLAB path:
+2.	Open MATLAB and add the repository folder to your MATLAB path:
  ```
 addpath(genpath('path_to_repository'));
 ```
 
 Usage
-
+```
 	1.	Place the image file in the images/ folder.
 	2.	Run the main script in MATLAB to compress and encrypt the image:
-  3.  The main files are Paper_main_EZW_enc.m to encode and compress the image, Then run encryption_decryption_algo_paper.m to encryption and decryption process, then finally run Paper_main_ezw_dec.m for decoding and decryption of the obtained decrypted data.
-
+	3.  	The main files are Paper_main_EZW_enc.m to encode and compress the image, Then run encryption_decryption_algo_paper.m to encryption and decryption process, then finally run Paper_main_ezw_dec.m for decoding and decryption of the obtained decrypted data.
+```
 The system achieves effective image compression with minimal quality loss and strong security measures. Key performance metrics and tests include:
 
 	•	Structural Similarity Index (SSIM): Evaluates image quality after reconstruction, indicating high visual similarity to the original.
@@ -55,6 +55,10 @@ The system achieves effective image compression with minimal quality loss and st
 	•	Entropy Test: Measures the randomness of the encrypted image data. High entropy (close to 8 for grayscale images) indicates a high degree of unpredictability.
 	•	NPCR (Number of Pixels Change Rate) and UACI (Unified Average Changing Intensity): Evaluate the sensitivity of the encryption to small changes in the input image, ensuring that minor modifications result in significant differences in encrypted output.
 	•	Key Sensitivity Test: Verifies that small changes in the encryption key lead to vastly different encrypted outputs, ensuring that even minor key discrepancies prevent successful decryption.
+References
+
+	•	Shapiro, J. M. (1993). Embedded image coding using zerotrees of wavelet coefficients.
+	•	Rivest, R. L., Shamir, A., Adleman, L. (1978). A method for obtaining digital signatures and public-key cryptosystems.
 
 License
 
