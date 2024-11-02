@@ -1,4 +1,4 @@
-#Secure Image Compression: Employing EZW Algorithm with Symmetric Key Cryptography using Fast Fibonacci Transform
+**Secure Image Compression: Employing EZW Algorithm with Symmetric Key Cryptography using Fast Fibonacci Transform**
 
 Project Overview
 
